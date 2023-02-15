@@ -1,0 +1,16 @@
+@baseUrl = https://2fbf8ff1.r2.vip.cpolar.cn
+
+
+### authorization
+POST {{baseUrl}}/auth HTTP/1.1
+content-type: application/json
+
+{
+    "id":1,
+    "username":"choi"
+}
+
+
+### home
+GET {{baseUrl}}/ HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJjaG9pIiwiaXNzIjoiZ2luZm8iLCJleHAiOjE2NzY0MzMxOTR9.dAZYQeTa3wJIhvSDsor9yPCmgFQd0Fi70ft0bDMHQuM eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJjaG9pIiwiaXNzIjoiZ2luZm8iLCJleHAiOjE2NzY0MzMyMDR9.YbIT-UghYrXcgyiLNdh3oPRB2lE58ebPeDVkkEWJxJY
